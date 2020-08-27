@@ -1,0 +1,61 @@
+{
+   "checksum": "dde0bbad3068e2a0190ebe938783105d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13242974874122207",
+            "guid": "6f3301f9-cb6f-484e-98c4-bb166efeb661",
+            "id": "5",
+            "name": "GBF",
+            "type": "url",
+            "url": "http://game.granbluefantasy.jp/#mypage"
+         }, {
+            "date_added": "13242974882340611",
+            "guid": "a987d4bf-bbe4-49e7-b5a3-0378cbda1133",
+            "id": "6",
+            "name": "Wiki",
+            "type": "url",
+            "url": "https://gbf.wiki/Main_Page"
+         }, {
+            "date_added": "13242974891435929",
+            "guid": "9b328e9c-63a3-4753-b901-d8e153da0c81",
+            "id": "7",
+            "name": "Spark",
+            "type": "url",
+            "url": "https://eurea.github.io/"
+         }, {
+            "date_added": "13242974933920029",
+            "guid": "d0f90a4b-f24b-484c-9c03-70f2076478b9",
+            "id": "8",
+            "name": "Raid",
+            "type": "url",
+            "url": "https://gbf-raidfinder.aikats.us/"
+         } ],
+         "date_added": "13242974791005891",
+         "date_modified": "13242974933920029",
+         "guid": "00000000-0000-4000-a000-000000000002",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13242974791005896",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000003",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13242974791005898",
+         "date_modified": "0",
+         "guid": "00000000-0000-4000-a000-000000000004",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

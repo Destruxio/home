@@ -1,0 +1,6 @@
+2020/08/27-00:06:31.008 1516b Reusing MANIFEST /home/tanay/.config/chromium/Default/Local Storage/leveldb/MANIFEST-000001
+2020/08/27-00:06:31.008 1516b Recovering log #3
+2020/08/27-00:06:31.008 1516b Reusing old log /home/tanay/.config/chromium/Default/Local Storage/leveldb/000003.log 
+2020/08/27-00:08:10.161 1553f Level-0 table #5: started
+2020/08/27-00:08:10.173 1553f Level-0 table #5: 166729 bytes OK
+2020/08/27-00:08:10.177 1553f Delete type=0 #3
