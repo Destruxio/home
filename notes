@@ -1,0 +1,4 @@
+Install xorg xorg-xinit pywal picom xmonad xmonad-contrib xmobar libreoffice gimp thunar firefox kitty chromium discord pulseaudio pavucontrol feh doom-emacs htop dmenu adobe-fonts
+sudo
+
+alternative: suckless route

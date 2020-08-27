@@ -51,6 +51,7 @@ fi
 ~/.fehbg &
 pulseaudio &
 picom &
+wal -R
 xsetroot -cursor_name left_ptr
 xrandr --output HDMI-1 --mode 1920x1080 --same-as eDP-1
 exec xmonad

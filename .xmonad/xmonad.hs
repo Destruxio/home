@@ -63,11 +63,14 @@ myKeys conf@(XConfig {XMonad.modMask = modm}) = M.fromList $
     -- launch emacs
     , ((modm,               xK_x     ), spawn "emacs")
 
+    -- launch emacs
+    , ((modm,               xK_z     ), spawn "thunar")
+
     -- launch firefox
     , ((modm,               xK_c     ), spawn "firefox")
    
     -- launch vivaldi
-    , ((modm,               xK_g     ), spawn "chromium-stable --no-sandbox")
+    , ((modm,               xK_g     ), spawn "chromium")
 
     -- launch discord
     , ((modm,               xK_v     ), spawn "discord --no-sandbox")
@@ -226,6 +229,7 @@ myLayout = avoidStruts (tiled ||| Mirror tiled ||| Full)
 myManageHook = composeAll
     [ className =? "MPlayer"        --> doFloat
     , className =? "Gimp"           --> doFloat
+    , className =? "Thunar"           --> doFloat
     , resource  =? "desktop_window" --> doIgnore
     , resource  =? "kdesktop"       --> doIgnore ]
 
