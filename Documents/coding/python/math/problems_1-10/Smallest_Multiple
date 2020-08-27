@@ -1,0 +1,29 @@
+multiples = []
+for num in range(1,1000000):
+    if num % 2 == 0:
+        if num % 3 == 0:
+            if num % 4 == 0:
+                if num % 5 == 0:
+                    if num % 6 == 0:
+                        if num % 7 == 0:
+                            if num % 8 == 0:
+                                if num % 9 == 0:
+                                    if num % 10 == 0:
+                                        if num % 11 == 0:
+                                            if num % 12 == 0:
+                                                if num % 13 == 0:
+                                                    if num % 14 == 0:
+                                                        if num % 15 == 0:
+                                                            if num % 16 == 0:
+                                                                multiples.append(num)
+
+# This part is the issue:
+real_multiples = []
+for number in multiples:
+    if number % 17 == 0:
+        if number % 18 == 0:
+            if number % 19 == 0:
+                if number % 20 == 0:
+                    real_multiples.append(number)
+
+print(multiples)

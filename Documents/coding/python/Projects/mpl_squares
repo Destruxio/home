@@ -1,0 +1,20 @@
+# We named it plt so we don't have to type out pyplot each time.
+import matplotlib.pyplot as plt
+
+# X and Y values respectively.
+input_values = [1,2,3,4,5]
+squares = [1,4,9,16,25]
+
+# Style must be added before plot is generated.
+plt.style.use('seaborn')
+fig,ax = plt.subplots()
+
+ax.plot(input_values,squares,linewidth = 3)
+
+# Making the plot more legible.
+ax.set_title("Square Numbers",fontsize = 24)
+ax.set_xlabel("Value",fontsize = 14)
+ax.set_ylabel("Square of Value",fontsize = 14)
+ax.tick_params(axis = 'both',labelsize = 14)
+
+plt.show()

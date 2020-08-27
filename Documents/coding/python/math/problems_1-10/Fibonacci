@@ -1,0 +1,20 @@
+fibonacci = [1,1]
+first = 1
+second = 1
+num = 0
+
+while fibonacci[-1] <= 4000000:
+    num = first + second
+    first = second
+    second = num
+    fibonacci.append(num)
+
+total = []
+
+for number in fibonacci:
+    if number % 2 == 0:
+        total.append(number)
+
+print(f"{fibonacci}\n")
+total = sum(total)
+print(total)

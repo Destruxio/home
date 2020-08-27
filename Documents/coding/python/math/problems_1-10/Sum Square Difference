@@ -1,0 +1,9 @@
+squares = []
+numbers = []
+for num in range(1,101):
+    square = num**2
+    numbers.append(num)
+    squares.append(square)
+sum_squares = sum(squares)
+sum_num = sum(numbers)**2
+print(sum_num - sum_squares)
